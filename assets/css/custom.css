@@ -1,0 +1,107 @@
+/**
+* Template Name: Knight - v2.2.1
+* Template URL: https://bootstrapmade.com/knight-free-bootstrap-theme/
+* Author: BootstrapMade.com
+* License: https://bootstrapmade.com/license/
+*/
+
+/*custom css*/
+
+/*.#hero .btn-get-started:hover{background-color: rgba(255,83,0,0.8);}*/
+ 
+ /*about-section*/
+.why-us .accordion-list a{
+  transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+}
+.about-box h3{margin-bottom: 20px;text-align: justify;}
+.about-box p{text-align: justify; line-height: 33px;font-size: 16px;}
+.about-imgbox{width: 525px;height: 420px;display: inline-block;box-shadow: 0px 2px 15px rgb(0 0 0 / 50%);
+    border-radius: 17px;overflow: hidden;vertical-align: top;}
+.about-img{width: 100%;height: 100%;margin-bottom: 0;}
+.about-imgbox img{width: 100%; height: 100%;object-fit: cover;}
+.about-bottom{margin-top: 100px;}
+
+/*club-section*/
+.club-list{padding-left: 0;margin-bottom: 20px;list-style: none;}
+.club-list li{position: relative;padding-left: 20px;margin-bottom: 5px;font-size: 16px;}
+.club-list li:before{content: '';background-color: #ff7f40;width: 10px;height: 10px;border-radius: 50%;position: absolute;
+  top: 7px;left: 0;}
+.club .content h4{font-size: 15px;margin-bottom: 25px;margin-top: 0;font-weight: 500;letter-spacing: 0.1px;}
+.club .expand-list li{padding: 0 10px 0 30px;margin-top: 10px;position: relative;}
+/*.club .expand-list li:last-child{margin-top: 0px;}*/
+.club .expand-list li:before{content: '';background-color: #ff7f40;width: 7px;height: 7px;border-radius: 50%;position: absolute;
+  top: 8px;left: 15px;}
+.club .expand-list li + li {margin-top: 10px;}
+
+/* ----- roadmap-seaction ----- */
+.roadmap-seaction {width: 100%;}
+.roadmap-heading {width: 100%;text-align: center;margin-bottom: 50px;}
+/* .roadmap-heading h2 {font-size: 30px;line-height: 41px;font-weight: normal;color: #50525A;} */
+/* .roadmap-heading h2 {font-size: 30px;line-height: 41px;font-weight: normal;color: #50525A;} */
+.roadmap-heading h1 {font-weight: bold;color: #353B54;margin-bottom:110px;}
+.roadmap-process {width: 100%;}
+.process-listing {display: block;width: 100%;}
+.process-listing li {display: block;width: 100%;margin-bottom: 110px;}
+.process-listing li:last-child {margin-bottom: 0}
+.process-listing li:nth-child(2n) .process-wrap{flex-direction: row-reverse;}
+.process-wrap {display: flex;}
+.process-wrap figure {width: 50%;position: relative;}
+.process-wrap .road-img{width: 50%;display: inline-block;vertical-align: top;}
+.process-wrap .road-img img{width: 100%;height: 100%;object-fit: contain;}
+.process-wrap .road-img2{height: 360px;}
+.process-info .process-no-outer {width: 100%;display: flex;margin-bottom: 33px;}
+.process-info .process-no {background-color: rgba(255,83,0,0.2);height: 60px;width: 60px;border-radius: 50%;display: flex;justify-content: center;align-items: center;}
+.process-no span {background-color:#ff7f40;height: 38px;width: 38px;color: #fff;display: flex;justify-content: center;align-items: center;border-radius: 50%;font-size: 20px;font-weight: 500;}
+.process-info h4 {color: #353B54;line-height: 44px;padding-right: 160px;margin-bottom: 15px;}
+.process-info p {font-size: 18px;line-height: 25px;color: rgba(53,59,84,0.8);padding-right: 110px;margin-bottom: 20px;}
+.process-info p a {text-decoration: underline;color: rgba(53,59,84,0.8);}
+.process-info .btn-link {color: rgba(91,153,251,0.8);font-weight: bold;font-size: 18px;}
+.process-info .btn-link:hover {color: #353B54;}
+.process-listing li:nth-child(2n) .process-wrap figure {text-align: right;}
+.process-listing li:nth-child(2n) .process-wrap .process-info .process-no-outer {justify-content: flex-end;margin-left: 60px;}
+.process-listing li:nth-child(2n) .process-wrap .process-info .process-no-outer .process-no {}
+.process-listing li:nth-child(2n) .process-wrap .process-info .process-info-inner {text-align: right;}
+.process-listing li:nth-child(2n) .process-wrap .process-info .process-info-inner h4,.process-listing li:nth-child(2n) .process-wrap .process-info .process-info-inner p {padding-right: 0;}
+.process-listing li:nth-child(2n) .process-wrap .process-info .process-info-inner p {padding-left: 60px;}
+.process-listing li:first-child .process-wrap .process-info:before{display: none;}
+.process-listing li:first-child .process-wrap figure:before{position: absolute;content: "";top: 35px;right:20px;
+  background-image: url(../img/feature-shape-top.svg);width: 107px;height: 82px;background-size: cover;    display: inline-block;}
+.process-listing li:nth-child(even) .process-wrap .process-info:before{position: absolute;content: "";bottom:95.5%;right:20px;
+  background-image: url(../img/feature-shape-left.svg);width: 107px;height: 82px;background-size: cover;}
+.process-listing li:nth-child(odd) .process-wrap .process-info:before{position: absolute;content: "";bottom:99%;left:20px;
+  background-image: url(../img/feature-shape-right.svg);width: 107px;height: 82px;background-size: cover;}
+.roadlist{padding-left: 0px;}
+.roadlist li{margin-bottom: 10px!important;}
+.roadlist li:last-child{margin-bottom: 0px;}
+.process-listing li:nth-child(2n) .roadlist:nth-child(2n){padding-left:0px;}
+.icon-box{display: flex;flex-wrap: wrap;width: 100%;justify-content: space-between;}
+.service-info{width: calc(100% - 75px);}
+.services .icon-box   .service-info h4{margin-left: 0;}
+.services .icon-box .service-info p{margin: 0;width: 85%;text-align: justify}
+.process-wrap .process-info{position: relative;width: 50%;}
+
+/*choose-section*/
+.choose-section{padding: 0 0 100px;}
+.choose-section .choose-box{box-shadow: 0 0 15px rgba(0 0 0 /15%);-o-box-shadow: 0 0 15px rgba(0 0 0 /15%);-ms-box-shadow: 0 0 15px rgba(0 0 0 /15%);
+        -moz-box-shadow: 0 0 15px rgba(0 0 0 /15%);-webkit-box-shadow: 0 0 15px rgba(0 0 0 /15%);align-items: center;
+display: flex;
+width: 100%;
+flex-wrap: wrap;
+justify-content: center;}
+.choose-section .choose-box h3{margin-top: 0px;width: 100%;}
+.choose-section .choose-box p{margin-bottom:5px;}
+.choose-btn{color: rgba(255,83,0,0.8);display: block;font-weight: 600;}
+.choose-btn:hover{color: rgba(255,83,0,0.8);}
+:focus-visible{outline: none;}
+.nav-logo a img{height: 40%; width: 40%; margin-left: 70px;}
+.perkIcon{color: rgba(255,83,0,0.8); font-size: 50px;}
+
+/*copy-rights*/
+.copyright a:hover{color: rgba(255,83,0,0.8);}
+
+
+.fa-users,.fa-medal{font-size: 40px;}
